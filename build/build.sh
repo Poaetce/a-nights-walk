@@ -6,7 +6,7 @@ mkdir -p $directory
 
 odin build src -out:$directory/$name
 
-echo $path
+echo $directory/$name
 
 if [ "$1" = "run" ]
 then
